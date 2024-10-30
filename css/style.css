@@ -1,0 +1,55 @@
+/*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">*/
+
+.ib_alert-blue {
+    margin-bottom: 0px !important;
+    margin-top: 15px !important;
+    padding: 10px !important;
+    background: #a1c9fc30 !important;
+    color: #2d405e !important;
+}
+
+.ib_alert-red {
+    margin-bottom: 0px !important;
+    margin-top: 15px !important;
+    padding: 10px !important;
+    background: #fca1a130 !important;
+    color: #5e2d2d !important;
+}
+
+.ib_alert-yellow {
+    margin-bottom: 0px !important;
+    margin-top: 15px !important;
+    padding: 10px !important;
+    background: #fffa2b30 !important;
+    color: #5d5e2d !important;
+}
+
+.ib_alert-green {
+    margin-bottom: 0px !important;
+    margin-top: 15px !important;
+    padding: 10px !important;
+    background: #a1fcb530 !important;
+    color: #2d5e38 !important;
+}
+
+.ib_alert a{
+    color: #497dd0 !important;
+}
+
+.ib_alert p{
+    margin: 0 0 0 0 !important;
+}
+
+.ib_alert a:hover{
+    color: #a1c9fc !important;
+}
+
+* + .ib_alert {
+    margin-top: 30px !important;
+  }
+  /*
+   * Remove margin from the last-child
+   */
+  .ib_alert > :last-child {
+    margin-bottom: 0 !important;
+  }
